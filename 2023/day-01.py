@@ -21,9 +21,3 @@ def sumchunknumbers(numbers):
 total = 0
 for chunk in chunks: total += (sumchunknumbers(getchunknumbers(chunk)))
 print(total)
-
-
-
-
-
-
